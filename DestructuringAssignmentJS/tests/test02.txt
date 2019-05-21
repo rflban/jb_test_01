@@ -1,0 +1,14 @@
+void foo()
+{
+    var f;
+    var g = 2;
+    var n = 254;
+    f = 2;
+}
+
+void bar()
+{
+    var g = 2;
+    g = 72;
+    var n = 21;
+}

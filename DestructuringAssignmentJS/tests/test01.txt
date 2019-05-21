@@ -1,0 +1,8 @@
+void foo()
+{
+    var f;
+
+    var g = 2;
+    var n = 254;
+    f = 2;
+}
