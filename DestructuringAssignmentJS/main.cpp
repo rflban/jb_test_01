@@ -26,11 +26,6 @@ void parse_fname(const std::string &s, std::string &n, std::string &e)
     }
 }
 
-std::string parse_line(const std::string &input_str, size_t &idx)
-{
-    return 0;
-}
-
 std::pair< std::string, std::string > cut_defination(const std::string &input_str, std::string &code, size_t &idx)
 {
     if (input_str[idx] != '=')
@@ -88,9 +83,10 @@ std::pair< std::string, std::string > cut_defination(const std::string &input_st
     if (input_str[idx] == ';')
     {
         idx++;
+        for (; is_spacer(input_str[idx]); idx++);
     }
 
-    idx--;
+    // idx--;
     return {name, value};
 }
 
@@ -167,7 +163,6 @@ std::string parse_block(const std::string &input_str, size_t &idx)
         block = "{" + block;
     }
     
-
     return block;
 }
 

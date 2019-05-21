@@ -1,0 +1,12 @@
+void foo()
+{
+    var [g, n] = [2, 254];
+    var f;
+    f = 2;
+}
+
+void bar()
+{
+    var [g, n] = [2, 21];
+    g = 72;
+}

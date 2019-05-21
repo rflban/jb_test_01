@@ -1,0 +1,13 @@
+void foo()
+{
+    var g = 2;
+    var n = 254;
+    f = 2;
+    
+    {
+        var p = 1;
+        var hh = 24;
+    }
+
+    var j = 7;
+}

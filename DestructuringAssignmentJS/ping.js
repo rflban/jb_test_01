@@ -1,6 +1,4 @@
 function ping(arr) {
-    {
-        var a = arr[0];
-        var b = arr[1];
-    }
+    var a = arr[0];
+    var b = arr[1];
 }
